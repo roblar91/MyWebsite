@@ -1,0 +1,72 @@
+#navbar {
+    color: rgba(245, 245, 245, 0.904);
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+}
+
+#navbar #title {
+    color: beige;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+#navbar #title:hover {
+    background-color: inherit;
+}
+
+#navbar #username {
+    color: yellow;
+}
+
+#navbar #username:hover {
+    background-color: inherit;
+    cursor: default;
+}
+
+#navbar #log-out-form {
+    height: 100%;
+}
+
+#navbar .align-left {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+#navbar .align-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+#navbar .align-right:last-child {
+    margin-right: 1rem;
+}
+
+#navbar .navbar-element {
+    display: flex;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: inherit;
+    background-color: inherit;
+    text-decoration: none;
+    margin: 0;
+    border: 0;
+	font-size: 100%;
+	font: inherit;
+}
+
+#navbar .navbar-element:hover {
+    background-color: darkcyan;
+    text-decoration: inherit;
+    color: inherit;
+}

@@ -2,6 +2,9 @@
 A Spring Boot application using Spring Web, Spring Security and MongoDB Atlas.
 
 #### Current milestones:
+###### General
+- Implement TLS
+
 ###### Authentication
 - ~~Users can login~~ OK
 - Users can register
